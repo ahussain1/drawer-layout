@@ -3,15 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".SchoolFragment">
 
     <TextView
+        android:padding="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="School Fragment"
         android:textSize="30sp"
-        android:gravity="center"
         />
-
 
 </RelativeLayout>
